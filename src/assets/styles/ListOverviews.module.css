@@ -1,0 +1,11 @@
+.title {
+  padding-block: 4rem;
+  font-size: 2.2rem;
+  color: var(--White);
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 2rem;
+}

@@ -1,0 +1,51 @@
+.card {
+  width: 100%;
+  margin-inline: auto;
+  max-width: 40rem;
+  padding: 2.25rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--Dark-Desaturated);
+  border-radius: 0.5rem;
+}
+
+.card__datos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 2.5rem;
+}
+.card__datos p {
+  font-size: 1.3rem;
+  color: var(--DesaturatedBlue);
+  font-weight: 500;
+}
+.card__datos h3 {
+  font-size: 2.5rem;
+  color: var(--White);
+}
+.card__icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+}
+.percentaje {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding-top: 1rem;
+}
+
+.percentaje p {
+  font-size: 1.1rem;
+  color: var(--Lime-Green);
+}
+
+.card:nth-of-type(2) .card__icon p,
+.card:nth-of-type(7) .card__icon p,
+.card:nth-of-type(8) .card__icon p {
+  color: var(--BrightRed);
+}

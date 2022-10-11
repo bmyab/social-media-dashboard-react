@@ -1,0 +1,85 @@
+.card {
+  width: 100%;
+  margin-inline: auto;
+  max-width: 40rem;
+  padding-block: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  text-align: center;
+  background-color: var(--Dark-Desaturated);
+
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  z-index: 100;
+}
+
+.card::after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  background: var(--Facebook);
+  top: 0;
+}
+
+.card:nth-of-type(2)::after {
+  background: var(--Twitter);
+}
+.card:nth-of-type(3)::after {
+  background: linear-gradient(45deg, var(--Instagram), var(--Instagram2));
+}
+.card:nth-of-type(4)::after {
+  background: var(--YouTube);
+}
+
+.card__name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.name {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--DesaturatedBlue);
+  font-weight: 500;
+}
+
+.card__follows {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+  padding-top: 1.5rem;
+  color: var(--White);
+}
+.follows {
+  font-size: 4.5rem;
+}
+.followers {
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--DesaturatedBlue);
+}
+
+.card__days {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.day {
+  color: var(--Lime-Green);
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.card:nth-of-type(4) .day {
+  color: var(--BrightRed);
+}

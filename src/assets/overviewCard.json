@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "title": "Page Views",
+    "number": 87,
+    "percentaje": 3,
+    "percentajeIcon":"images/icon-up.svg",
+    "icon" : "images/icon-facebook.svg"
+  },
+  {
+    "id": 2,
+    "title": "Likes",
+    "number": 52,
+    "percentaje": 2,
+    "percentajeIcon":"images/icon-down.svg",
+    "icon" : "images/icon-facebook.svg"
+  },
+  {
+    "id": 3,
+    "title": "likes",
+    "number": 5492,
+    "percentaje": 2257,
+    "percentajeIcon":"images/icon-up.svg",
+    "icon" : "images/icon-instagram.svg"
+  },
+  {
+    "id": 4,
+    "title": "Profile Views",
+    "number": 52,
+    "percentaje": 1375,
+    "percentajeIcon":"/images/icon-up.svg",
+    "icon" : "images/icon-instagram.svg"
+  },
+  {
+    "id": 5,
+    "title": "Retweets",
+    "number": 117,
+    "percentaje": 303,
+    "percentajeIcon":"images/icon-up.svg",
+    "icon" : "images/icon-twitter.svg"
+  },
+  {
+    "id": 6,
+    "title": "Likes",
+    "number": 507,
+    "percentaje": 553,
+    "percentajeIcon":"images/icon-up.svg",
+    "icon" : "images/icon-twitter.svg"
+  },
+  {
+    "id": 7,
+    "title": "Likes",
+    "number": 107,
+    "percentaje": 19,
+    "percentajeIcon":"images/icon-down.svg",
+    "icon" : "images/icon-youtube.svg"
+  },
+  {
+    "id": 8,
+    "title": "Total Views",
+    "number": 1407,
+    "percentaje": 12,
+    "percentajeIcon":"images/icon-down.svg",
+    "icon" : "images/icon-youtube.svg"
+  }
+]

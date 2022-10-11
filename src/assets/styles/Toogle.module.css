@@ -1,0 +1,43 @@
+.toogle{
+  display: flex;
+  justify-content: space-between;
+}
+
+.toogleContainer {
+  width: 40px;
+  height: 20px;
+  padding-inline: 4px;
+
+  border-radius: 1rem;
+
+  display: flex;
+  align-items: center;
+
+  background: linear-gradient(90deg, var(--color1), var(--color2));
+}
+.circle {
+  border-radius: 50%;
+  height: 16px;
+  width: 16px;
+  background-color: var(--Dark-Desaturated);
+  cursor: pointer;
+
+  transition: all 0.2s;
+}
+.check {
+  display: none;
+}
+.check:checked ~ .toogleContainer{
+  background: var(--color3);
+}
+.check:checked ~ .toogleContainer .circle{
+  transform: translateX(15px);
+  --White : hsl(0, 0%, 100%);
+  background-color: var(--White);
+}
+
+.parrafo{
+  --DarkGrayishBlue: hsl(228, 12%, 44%);
+  color: var(--DarkGrayishBlue);
+  font-weight: 500;
+}

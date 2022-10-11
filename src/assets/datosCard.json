@@ -1,0 +1,38 @@
+[
+  {
+    "id" : 1,
+    "nombre":  "@nathanf",
+    "follows" : "1987" ,
+    "followers" : "followers",
+    "day" : 12,
+    "icon" : "images/icon-twitter.svg",
+    "dayIcon":"images/icon-up.svg"
+  },
+  {
+    "id" : 2,
+    "nombre":  "@nathanf",
+    "follows" : "1044" ,
+    "followers" : "followers",
+    "day" : 99,
+    "icon" : "images/icon-twitter.svg",
+    "dayIcon":"images/icon-up.svg"
+  },
+  {
+    "id" : 3,
+    "nombre":  "@realnathanf",
+    "follows" : "11k" ,
+    "followers" : "followers",
+    "day" : 1099 ,
+    "icon" : "images/icon-instagram.svg",
+    "dayIcon":"images/icon-up.svg"
+  },
+  {
+    "id" : 4,
+    "nombre":  "@Nathan F.",
+    "follows" : "8239" ,
+    "followers" : "Subscribers",
+    "day" :  144,
+    "dayIcon":"images/icon-down.svg",
+    "icon" : "images/icon-youtube.svg"
+  }
+]
